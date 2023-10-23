@@ -9,14 +9,16 @@ import SwiftUI
 
 struct CardView: View {
   @StateObject var viewModel: CardViewModel
+  let cardWidth = UIScreen.main.bounds.width - 20
+  let cardHeight = UIScreen.main.bounds.height - 80
   
   var body: some View {
     ZStack {
       Rectangle()
-        .frame(width: UIScreen.main.bounds.width - 20, height: UIScreen.main.bounds.height - 80)
-        .border(.white, width: 3.0)
+        .frame(width: cardWidth, height: cardHeight)
         .cornerRadius(20)
-        .foregroundColor(viewModel.color.opacity(0.9))
+        .border(.white, width: 3.0)
+        .foregroundColor(.black)
         .shadow(radius: 4)
       
       HStack {
@@ -26,6 +28,19 @@ struct CardView: View {
           .bold()
         Image(systemName: "heart.fill")
           .foregroundColor(.red)
+      }
+      
+      Rectangle()
+        .frame(width: cardWidth, height: cardHeight)
+        .border(.white, width: 3.0)
+        .cornerRadius(20)
+        .foregroundColor(viewModel.color)
+        .shadow(radius: 4)
+      
+      if viewModel.cardSymbol != .none {
+        Image(systemName: viewModel.cardSymbol.rawValue)
+          .font(.system(size: 70))
+          .foregroundColor(.white)
       }
     }
     .offset(x: viewModel.offset.width, y: viewModel.offset.height)
