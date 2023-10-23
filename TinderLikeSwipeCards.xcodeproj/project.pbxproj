@@ -11,6 +11,7 @@
 		43EC7D442AE664DC005C0F99 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43EC7D432AE664DC005C0F99 /* ContentView.swift */; };
 		43EC7D462AE664DD005C0F99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43EC7D452AE664DD005C0F99 /* Assets.xcassets */; };
 		43EC7D492AE664DD005C0F99 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43EC7D482AE664DD005C0F99 /* Preview Assets.xcassets */; };
+		43EC7D502AE665EC005C0F99 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43EC7D4F2AE665EC005C0F99 /* CardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		43EC7D432AE664DC005C0F99 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		43EC7D452AE664DD005C0F99 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		43EC7D482AE664DD005C0F99 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		43EC7D4F2AE665EC005C0F99 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				43EC7D412AE664DC005C0F99 /* TinderLikeSwipeCardsApp.swift */,
 				43EC7D432AE664DC005C0F99 /* ContentView.swift */,
+				43EC7D4F2AE665EC005C0F99 /* CardView.swift */,
 				43EC7D452AE664DD005C0F99 /* Assets.xcassets */,
 				43EC7D472AE664DD005C0F99 /* Preview Content */,
 			);
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				43EC7D442AE664DC005C0F99 /* ContentView.swift in Sources */,
+				43EC7D502AE665EC005C0F99 /* CardView.swift in Sources */,
 				43EC7D422AE664DC005C0F99 /* TinderLikeSwipeCardsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

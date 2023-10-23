@@ -8,17 +8,20 @@
 import SwiftUI
 
 struct ContentView: View {
-    var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+  private var people: [String] = ["Mario", "Luigi", "Peach", "Toad", "Daisy"].reversed()
+  
+  var body: some View {
+    VStack {
+      ZStack {
+        ForEach(people, id: \.self) { person in
+          CardView(person: person)
         }
-        .padding()
+      }
     }
+    .padding()
+  }
 }
 
 #Preview {
-    ContentView()
+  ContentView()
 }
