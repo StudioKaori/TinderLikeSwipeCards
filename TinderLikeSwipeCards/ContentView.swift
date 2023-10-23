@@ -14,7 +14,7 @@ struct ContentView: View {
     VStack {
       ZStack {
         ForEach(people, id: \.self) { person in
-          CardView(person: person)
+          CardView(viewModel: CardViewModel(person: person))
         }
       }
     }

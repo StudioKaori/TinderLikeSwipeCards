@@ -12,6 +12,8 @@
 		43EC7D462AE664DD005C0F99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43EC7D452AE664DD005C0F99 /* Assets.xcassets */; };
 		43EC7D492AE664DD005C0F99 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43EC7D482AE664DD005C0F99 /* Preview Assets.xcassets */; };
 		43EC7D502AE665EC005C0F99 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43EC7D4F2AE665EC005C0F99 /* CardView.swift */; };
+		43EC7D562AE69E13005C0F99 /* CardService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43EC7D552AE69E13005C0F99 /* CardService.swift */; };
+		43EC7D582AE69E62005C0F99 /* CardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43EC7D572AE69E62005C0F99 /* CardViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		43EC7D452AE664DD005C0F99 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		43EC7D482AE664DD005C0F99 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		43EC7D4F2AE665EC005C0F99 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		43EC7D552AE69E13005C0F99 /* CardService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardService.swift; sourceTree = "<group>"; };
+		43EC7D572AE69E62005C0F99 /* CardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 				43EC7D412AE664DC005C0F99 /* TinderLikeSwipeCardsApp.swift */,
 				43EC7D432AE664DC005C0F99 /* ContentView.swift */,
 				43EC7D4F2AE665EC005C0F99 /* CardView.swift */,
+				43EC7D572AE69E62005C0F99 /* CardViewModel.swift */,
+				43EC7D552AE69E13005C0F99 /* CardService.swift */,
 				43EC7D452AE664DD005C0F99 /* Assets.xcassets */,
 				43EC7D472AE664DD005C0F99 /* Preview Content */,
 			);
@@ -143,6 +149,8 @@
 				43EC7D442AE664DC005C0F99 /* ContentView.swift in Sources */,
 				43EC7D502AE665EC005C0F99 /* CardView.swift in Sources */,
 				43EC7D422AE664DC005C0F99 /* TinderLikeSwipeCardsApp.swift in Sources */,
+				43EC7D562AE69E13005C0F99 /* CardService.swift in Sources */,
+				43EC7D582AE69E62005C0F99 /* CardViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,7 +297,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.studioKaori.TinderLikeSwipeCards;
+				PRODUCT_BUNDLE_IDENTIFIER = com.studioKaori.TinderLikeSwipeCard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -318,7 +326,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.studioKaori.TinderLikeSwipeCards;
+				PRODUCT_BUNDLE_IDENTIFIER = com.studioKaori.TinderLikeSwipeCard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
